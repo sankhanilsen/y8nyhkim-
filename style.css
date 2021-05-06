@@ -1,0 +1,394 @@
+
+*{
+  
+    margin: 0; padding:0; box-sizing: border-box;
+    
+
+}
+::-webkit-scrollbar{
+    display: none;}
+    #divmain{
+    background: linear-gradient(60deg, #00C6A7 , #1E4D92 ); 
+   
+}
+#menu{
+    background-color: transparent;
+    font-family:sans-serif;
+    text-align: center;
+    font-weight: bold;
+   
+    font-family:cursive ;
+}
+#menu li{
+ display: inline-flex;
+ list-style: none;
+ color :black;
+
+ width: 130px;
+ margin: 15px;
+ padding: 15px;
+ text-decoration: none;
+}
+.uli:hover .sub-menu-1{
+background-color: white;
+color :rgb(230, 230, 230);
+border-radius: 3px;
+display: block;
+width: 200;
+
+position: absolute;
+padding-top:-10%;
+}
+
+#lol{
+    display: flex;
+}
+#logo{
+    width: 200;
+    height: 100;
+}
+.sub-menu-1{
+    display:none;
+
+}
+#mainheader{
+    display: flex;
+padding-top: 150;
+}
+.sec{
+display: flex;
+background-image: linear-gradient(60deg, #00C6A7 , #f5d2b5);
+}
+.every{
+    padding-top: 100;
+  
+
+    width: 800;
+    padding-left: 200;
+}
+.sec2{
+    display: flex;
+    background-image: linear-gradient(60deg,#f5d2b5 ,  #00C6A7);
+    }
+.social{
+    width: 50;
+    height: 50;
+    padding: 5;
+}
+.VPN{
+    display: flex;
+}
+.VPN img{
+    padding-top: 2;
+   
+    width: 200;
+    height: 150;
+}
+.sub-menu-2{
+    display:none}
+
+    .uli:hover .sub-menu-2{
+        background-color: white;
+        color :rgb(230, 230, 230);
+        border-radius: 3px;
+        display: block;
+        width: 500;
+        height: 300;
+        position: absolute;
+        padding-top:-10%;
+        }
+        
+        .footer {
+            background: #303036;
+            color: #d3d3d3;
+            height: 400px;
+            position: relative;
+          }
+          
+          .footer .footer-content {
+            height: 350px;
+            display: flex;
+          }
+          
+          .footer .footer-content .footer-section {
+            flex: 1;
+            padding: 25px;
+          }
+          
+          .footer .footer-content h1,
+          .footer .footer-content h2 {
+            color: white;
+          }
+          
+          .footer .footer-content .about h1 span {
+            color: #05f7ff;
+          }
+          
+          .footer .footer-content .about .contact span {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+          }
+          
+          .footer .footer-content .about .socials a {
+            border: 1px solid gray;
+            width: 45px;
+            height: 41px;
+            padding-top: 5px;
+            margin-right: 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1.3em;
+            border-radius: 5px;
+            transition: all .3s;
+          }
+          
+          .footer .footer-content .about .socials a:hover {
+            border: 1px solid white;
+            color: white;
+            transition: all .3s;
+          }
+          
+          .footer .footer-content .links ul a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            transition: all .3s;
+          }
+          
+          .footer .footer-content .links ul a:hover {
+            color: white;
+            margin-left: 15px;
+            transition: all .3s;
+          }
+          
+          .footer .footer-content .contact-form .contact-input {
+            background: #272727;
+            color: #bebdbd;
+            margin-bottom: 10px;
+            line-height: 1.5rem;
+            padding: .9rem 1.4rem;
+            border: none;
+          }
+          
+          .footer .footer-content .contact-form .contact-input:focus {
+            background: #1a1a1a;
+          }
+          
+          .footer .footer-content .contact-form .contact-btn {
+            float: right;
+            font-size: 1.1em;
+            font-family: 'Lora', serif;
+          }
+          
+          .footer .footer-bottom {
+            background: #343a40;
+            color: #686868;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            padding-top: 20px;
+          }
+
+          
+.price-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  .price-column {
+    background-color: white;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+    padding: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 275px;
+    border-radius: 8px;
+  }
+  
+  .price-column.popular {
+    position: relative;
+    background-color: var(--accent-color);
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+    color: white;
+    margin-top: -1.5rem;
+    padding-top: 3.5rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 3.5rem;
+  }
+  
+  .price-column:first-child {
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  
+  .price-column:last-child {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+  }
+  
+  .price-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 3.5rem;
+    display: flex;
+  }
+  
+  .dollar-sign {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-right: .25rem;
+  }
+  
+  .per-month {
+    font-size: .75rem;
+    align-self: flex-end;
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+  }
+  
+  .plan-name {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .price-column.popular .divider {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+  }
+  
+  .feature img {
+    height: 1.1em;
+    width: 1.1em;
+    margin-right: .5rem;
+  }
+  
+  .feature.inactive {
+    color: #999;
+    text-decoration-line: line-through;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    right: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+  }
+  
+  .cta {
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    width: 100%;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 3rem;
+    transition: 100ms;
+    transform: scale(1);
+  }
+  
+  .price-column.popular .cta {
+    background-color: white;
+    color: var(--accent-color);
+  }
+  
+  .cta:hover, .cta:focus {
+    transform: scale(1.1);
+  }
+  #gg{
+    margin: 0;
+    background-color: #F8F9FB;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-font-family);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+.side-links {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.side-link-youtube {
+  background-color: red;
+}
+
+.side-link-twitter {
+  background-color: #1DA1F2;
+}
+
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --accent-color: #641BFF;
+    --heading-font-family: 'Poppins', sans-serif;
+  }
